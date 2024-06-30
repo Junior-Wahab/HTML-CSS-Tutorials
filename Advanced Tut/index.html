@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./style.css " />
-    <title>My first web page</title>
+    <title>Jobness</title>
   </head>
   <body>
     <div id="navbar">
       <img
         id="logo"
-        src="./images/rui-silvestre-hAMJpesMeDE-unsplash.jpg"
+        src="../images/rui-silvestre-hAMJpesMeDE-unsplash.jpg"
         alt="logo"
       />
     </div>
 
-    <img id="banner" src="./images/Banner.jpg" alt="Banner" height="300px" />
+    <img id="banner" src="../images/Banner.jpg" alt="Banner" height="300px" />
 
     <h1 style="text-align: center">About Jobness</h1>
 
@@ -55,7 +55,7 @@
       <div id="team">
         <img
           id="team-image"
-          src="./images/good-faces-xmSWVeGEnJw-unsplash.jpg"
+          src="../images/good-faces-xmSWVeGEnJw-unsplash.jpg"
           alt=""
           height="300px"
         />
@@ -64,42 +64,49 @@
 
     <h2>Job opportunities</h2>
 
-    <div id="jobs">
-      <div>
-        <div>
-          <a href="mailto:emmawahabjnr@gmail.com?subect=Frontend" class="apply"
-            >Apply</a
-          >
-          <h3>Frontend developer</h3>
-          <div class="location">Ghana, Accra</div>
-        </div>
+    <table id="jobs-table">
+      <tr class="jobs-header-row">
+        <th>Job title</th>
+        <th>Location</th>
+        <th>Salary</th>
+        <th>Posted on</th>
+      </tr>
 
-        <div>
-          <a href="mailto:emmawahabjnr@gmail.com?subect=Backend" class="apply"
-            >Apply</a
-          >
-          <h3>Backend developer</h3>
-          <div class="location">Remote</div>
-        </div>
-      </div>
+      <tr class="jobs-data-row">
+        <td>Frontend Developer</td>
+        <td>Ghana, Accra</td>
+        <td>12,000</td>
+        <td>Mar 3,2024</td>
+      </tr>
 
-      <div>
-        <a
-          href="mailto:emmawahabjnr@gmail.com?subect=Data-scientist"
-          class="apply"
-          >Apply</a
-        >
-        <h3>Data scientist</h3>
-        <div class="location">Remote</div>
-      </div>
-    </div>
+      <tr class="jobs-data-row">
+        <td>Backend Developer</td>
+        <td>Ghana, Takoradi</td>
+        <td>13,000</td>
+        <td>Mar 3,2024</td>
+      </tr>
+
+      <tr class="jobs-data-row">
+        <td>Full-stack Developer</td>
+        <td>England, London</td>
+        <td>20,000</td>
+        <td>Mar 3,2024</td>
+      </tr>
+
+      <tr class="jobs-data-row">
+        <td>Data Scientist</td>
+        <td>Remote</td>
+        <td>13,000</td>
+        <td>Mar 3,2024</td>
+      </tr>
+    </table>
 
     <footer id="footer">
       <ul id="footerlinks">
         <li><a href="https://www.google.com/" target="_blank">Courses</a></li>
         <li><a href="https://www.google.com/" target="_blank">Programs</a></li>
         <li><a href="https://www.google.com/" target="_blank">Youtube</a></li>
-        <div class="copyright">&copy 2024 Junior</div> 
+        <div class="copyright">&copy 2024 Junior</div>
       </ul>
     </footer>
   </body>
